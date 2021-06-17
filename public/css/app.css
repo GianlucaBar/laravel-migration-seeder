@@ -1,0 +1,27 @@
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.package {
+  width: calc(100% / 3 - 20px);
+  padding: 10px;
+  margin: 10px;
+  background-color: #464545;
+  color: white;
+  border-radius: 5px;
+}
+
+.ms_row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-bottom: 1px solid grey;
+}
+
+.key {
+  font-weight: bold;
+  color: #ff5c5c;
+}
+
